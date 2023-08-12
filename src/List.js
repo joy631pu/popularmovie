@@ -19,7 +19,7 @@ import Snackbar from '@material-ui/core/Snackbar';
 import Detail from "./Detail";
 
 const List = () => {
-  const [stext, setstext] = useState("movies");
+  const [stext, setstext] = useState("avengers");
   const [result, setresult] = useState([]);
   const [result2, setresult2] = useState([]);
   const [open, setOpen] = React.useState(false);
